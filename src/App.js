@@ -5,6 +5,11 @@ function App() { //componente funcional, el nombre del componente va en mayuscul
   return (
     <div className="App"> 
       <Usuario imagen={require('./assets/imagenes/perfil.webp')} nombre={'Maria'} cargo={'Gerente Gerenal'} color={'#94FCD9'}/>
+      <Usuario imagen={require('./assets/imagenes/perfil.webp')} nombre={'Dolores'} cargo={'Vice-Gerente Gerenal'} color={'#94FCD9'}/>
+      <Usuario imagen={require('./assets/imagenes/perfil.webp')} nombre={'Maria'} cargo={'Gerente Gerenal'} color={'#94FCD9'}/> 
+      <Usuario imagen={require('./assets/imagenes/perfil.webp')} nombre={'Maria'} cargo={'Gerente Gerenal'} color={'#94FCD9'}/>      
+      <Usuario imagen={require('./assets/imagenes/perfil.webp')} nombre={'Maria'} cargo={'Gerente Gerenal'} color={'#94FCD9'}/>
+
     </div>
   );
 }
